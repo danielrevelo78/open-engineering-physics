@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="w-[1440px] bg-[#F5F2FC] text-[#2E1A47]" style="font-family:'Inter',sans-serif">
+
+<header data-design-id="header-main-dp01" class="bg-white px-12 py-5 flex items-center justify-between border-b border-[#E6DEF8]">
+  <div class="flex items-end gap-3">
+    <div class="w-12 h-12 rounded-full bg-[#5B21B6] text-white flex items-center justify-center text-xl border-4 border-[#EDE7FA]"><i class="fa-solid fa-atom"></i></div>
+    <div>
+      <p class="text-[11px] font-bold tracking-[0.06em] leading-tight text-[#3B1178]">REPOSITORIO DE PROYECTOS<br>DE INGENIERÍA FÍSICA</p>
+      <div class="mt-1.5 flex items-center"><span class="h-[2px] w-[210px] bg-[#7C4DD8] rounded-full"></span><span class="w-2 h-2 rounded-full border-2 border-[#7C4DD8]"></span></div>
+    </div>
+  </div>
+  <nav data-design-id="nav-top-dp02" class="flex items-center gap-2 text-sm">
+    <a href="#" class="px-5 py-2 rounded-full text-[#5A4A7A]">Inicio</a>
+    <a href="#" class="px-5 py-2 rounded-full bg-[#EDE7FA] text-[#5B21B6] font-semibold">Proyectos</a>
+    <a href="#" class="px-5 py-2 rounded-full text-[#5A4A7A]">Áreas</a>
+    <a href="#" class="px-5 py-2 rounded-full text-[#5A4A7A]">Estudiantes</a>
+    <a href="#" class="px-5 py-2 rounded-full text-[#5A4A7A]">Colaboraciones</a>
+    <a href="#" class="ml-4 w-10 h-10 rounded-full bg-[#EDE7FA] text-[#5B21B6] flex items-center justify-center"><i class="fa-regular fa-user"></i></a>
+  </nav>
+</header>
+
+<main data-design-id="main-content-dp03" class="px-12 py-8">
+  <p class="text-[11px] text-[#8B7AAC]"><a href="#" class="hover:text-[#5B21B6]">Proyectos</a> · <a href="#" class="hover:text-[#5B21B6]">Aeronáutica</a> · <span class="text-[#5B21B6] font-semibold">Sistema de navegación para UAV</span></p>
+
+  <section data-design-id="hero-proyecto-dp04" class="mt-4 relative rounded-2xl overflow-hidden border border-[#E6DEF8]">
+    <img src="assets/dron.jpg" class="w-full h-[280px] object-cover" alt="UAV">
+    <div class="absolute inset-0 bg-gradient-to-r from-[#2A0E5C]/90 via-[#3B1178]/70 to-transparent"></div>
+    <div class="absolute inset-0 p-10 flex flex-col justify-end">
+      <div class="flex gap-2">
+        <span class="px-3 py-1 rounded-full bg-white/20 text-white text-[10px] font-bold tracking-wide backdrop-blur">TALLER 5</span>
+        <span class="px-3 py-1 rounded-full bg-white/20 text-white text-[10px] font-bold tracking-wide backdrop-blur">AERONÁUTICA</span>
+        <span class="px-3 py-1 rounded-full bg-white/20 text-white text-[10px] font-bold tracking-wide backdrop-blur">2025</span>
+      </div>
+      <h1 class="mt-4 text-[36px] font-extrabold tracking-[-0.02em] text-white leading-tight">Sistema de navegación para UAV</h1>
+      <p class="mt-2 text-sm text-white/80 max-w-[620px]">Integración de sensores inerciales y GNSS con control autónomo de vuelo para plataformas no tripuladas.</p>
+    </div>
+  </section>
+
+  <div class="mt-8 flex gap-8 items-start">
+    <section data-design-id="contenido-dp05" class="flex-1">
+      <article data-design-id="resumen-dp06" class="bg-white rounded-2xl border border-[#E6DEF8] p-7">
+        <h2 class="text-[17px] font-bold text-[#2A0E5C]">Resumen del proyecto</h2>
+        <p class="mt-3 text-[13px] leading-[1.8] text-[#5A4A7A]">El proyecto desarrolla un sistema de navegación autónoma para vehículos aéreos no tripulados, combinando una unidad inercial de bajo costo con un receptor GNSS mediante un filtro de Kalman extendido. Se implementó el algoritmo de fusión en Python y se validó con vuelos controlados en el campus de la UNAL Medellín.</p>
+        <p class="mt-3 text-[13px] leading-[1.8] text-[#5A4A7A]">Los resultados muestran una reducción del error de posición horizontal de 4.2 m a 1.1 m frente al GNSS sin corrección, manteniendo estabilidad durante pérdidas momentáneas de señal.</p>
+        <div class="mt-6 flex flex-wrap gap-2">
+          <span class="px-4 py-1.5 rounded-full bg-[#F5F2FC] border border-[#E6DEF8] text-xs text-[#4A3B6B]">GNSS</span>
+          <span class="px-4 py-1.5 rounded-full bg-[#F5F2FC] border border-[#E6DEF8] text-xs text-[#4A3B6B]">Filtro de Kalman</span>
+          <span class="px-4 py-1.5 rounded-full bg-[#F5F2FC] border border-[#E6DEF8] text-xs text-[#4A3B6B]">Python</span>
+          <span class="px-4 py-1.5 rounded-full bg-[#F5F2FC] border border-[#E6DEF8] text-xs text-[#4A3B6B]">Control autónomo</span>
+        </div>
+      </article>
+
+      <article data-design-id="timeline-dp07" class="mt-6 bg-white rounded-2xl border border-[#E6DEF8] p-7">
+        <h2 class="text-[17px] font-bold text-[#2A0E5C] flex items-center gap-2"><i class="fa-regular fa-clock text-[#7C4DD8]"></i> Línea de tiempo</h2>
+        <div class="mt-6 relative pl-7">
+          <span class="absolute left-[7px] top-2 bottom-2 w-[2px] bg-[#EDE7FA]"></span>
+          <div class="relative pb-7">
+            <span class="absolute -left-7 top-1 w-4 h-4 rounded-full bg-[#5B21B6] border-4 border-[#EDE7FA]"></span>
+            <p class="text-xs font-bold text-[#5B21B6]">Febrero 2025</p>
+            <p class="text-[13px] font-semibold text-[#2A0E5C] mt-0.5">Planteamiento y revisión bibliográfica</p>
+            <p class="text-xs text-[#8B7AAC] mt-1">Definición del alcance y estudio de arquitecturas de fusión sensorial.</p>
+          </div>
+          <div class="relative pb-7">
+            <span class="absolute -left-7 top-1 w-4 h-4 rounded-full bg-[#5B21B6] border-4 border-[#EDE7FA]"></span>
+            <p class="text-xs font-bold text-[#5B21B6]">Mayo 2025</p>
+            <p class="text-[13px] font-semibold text-[#2A0E5C] mt-0.5">Implementación del filtro y simulación</p>
+            <p class="text-xs text-[#8B7AAC] mt-1">Modelo en Python validado contra trayectorias sintéticas.</p>
+          </div>
+          <div class="relative pb-7">
+            <span class="absolute -left-7 top-1 w-4 h-4 rounded-full bg-[#5B21B6] border-4 border-[#EDE7FA]"></span>
+            <p class="text-xs font-bold text-[#5B21B6]">Agosto 2025</p>
+            <p class="text-[13px] font-semibold text-[#2A0E5C] mt-0.5">Pruebas de vuelo en campo</p>
+            <p class="text-xs text-[#8B7AAC] mt-1">Cinco campañas de vuelo en el campus con registro de telemetría.</p>
+          </div>
+          <div class="relative">
+            <span class="absolute -left-7 top-1 w-4 h-4 rounded-full bg-white border-[3px] border-[#C9B8E8]"></span>
+            <p class="text-xs font-bold text-[#8B7AAC]">Noviembre 2025</p>
+            <p class="text-[13px] font-semibold text-[#2A0E5C] mt-0.5">Entrega final y sustentación</p>
+            <p class="text-xs text-[#8B7AAC] mt-1">Documento técnico y repositorio público publicados.</p>
+          </div>
+        </div>
+      </article>
+
+      <article data-design-id="archivos-dp08" class="mt-6 bg-white rounded-2xl border border-[#E6DEF8] p-7">
+        <h2 class="text-[17px] font-bold text-[#2A0E5C] flex items-center gap-2"><i class="fa-regular fa-folder-open text-[#7C4DD8]"></i> Archivos y recursos</h2>
+        <div class="mt-4 space-y-3">
+          <div class="flex items-center gap-4 p-4 rounded-xl bg-[#F9F7FE] border border-[#EDE7FA]">
+            <i class="fa-regular fa-file-pdf text-[#5B21B6] text-lg"></i>
+            <div class="flex-1"><p class="text-[13px] font-semibold text-[#2A0E5C]">Informe_final_UAV.pdf</p><p class="text-[11px] text-[#8B7AAC]">4.2 MB · Documento técnico</p></div>
+            <a href="#" class="text-xs font-semibold text-[#5B21B6]">Descargar</a>
+          </div>
+          <div class="flex items-center gap-4 p-4 rounded-xl bg-[#F9F7FE] border border-[#EDE7FA]">
+            <i class="fa-brands fa-github text-[#5B21B6] text-lg"></i>
+            <div class="flex-1"><p class="text-[13px] font-semibold text-[#2A0E5C]">Repositorio de código</p><p class="text-[11px] text-[#8B7AAC]">Python · Licencia MIT</p></div>
+            <a href="#" class="text-xs font-semibold text-[#5B21B6]">Abrir</a>
+          </div>
+          <div class="flex items-center gap-4 p-4 rounded-xl bg-[#F9F7FE] border border-[#EDE7FA]">
+            <i class="fa-solid fa-table text-[#5B21B6] text-lg"></i>
+            <div class="flex-1"><p class="text-[13px] font-semibold text-[#2A0E5C]">datos_telemetria.csv</p><p class="text-[11px] text-[#8B7AAC]">820 KB · Datos de vuelo</p></div>
+            <a href="#" class="text-xs font-semibold text-[#5B21B6]">Descargar</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <aside data-design-id="sidebar-dp09" class="w-[320px] shrink-0">
+      <div class="bg-white rounded-2xl border border-[#E6DEF8] p-6">
+        <p class="text-[11px] font-bold tracking-[0.12em] text-[#8B7AAC]">AUTOR PRINCIPAL</p>
+        <div class="mt-4 flex items-center gap-4">
+          <div class="w-12 h-12 rounded-full bg-[#5B21B6] text-white flex items-center justify-center font-bold">DR</div>
+          <div><p class="text-sm font-bold text-[#2A0E5C]">Daniel Revelo</p><p class="text-[11px] text-[#8B7AAC]">Ingeniería Física · UNAL Medellín</p></div>
+        </div>
+        <div class="my-5 h-px bg-[#EDE7FA]"></div>
+        <p class="text-[11px] font-bold tracking-[0.12em] text-[#8B7AAC]">COLABORADORES</p>
+        <div class="mt-3 space-y-3">
+          <div class="flex items-center gap-3"><div class="w-9 h-9 rounded-full bg-[#EDE7FA] text-[#5B21B6] flex items-center justify-center text-xs font-bold">MG</div><div><p class="text-[13px] font-semibold text-[#2A0E5C]">Mariana Gómez</p><p class="text-[11px] text-[#8B7AAC]">Instrumentación</p></div></div>
+          <div class="flex items-center gap-3"><div class="w-9 h-9 rounded-full bg-[#EDE7FA] text-[#5B21B6] flex items-center justify-center text-xs font-bold">JR</div><div><p class="text-[13px] font-semibold text-[#2A0E5C]">Julián Rendón</p><p class="text-[11px] text-[#8B7AAC]">Electrónica de vuelo</p></div></div>
+          <div class="flex items-center gap-3"><div class="w-9 h-9 rounded-full bg-[#EDE7FA] text-[#5B21B6] flex items-center justify-center text-xs font-bold">PA</div><div><p class="text-[13px] font-semibold text-[#2A0E5C]">Prof. P. Álvarez</p><p class="text-[11px] text-[#8B7AAC]">Docente asesor</p></div></div>
+        </div>
+        <button type="button" data-design-id="btn-colaborar-dp10" class="mt-6 w-full py-3 rounded-full bg-[#5B21B6] text-white text-sm font-semibold"><i class="fa-solid fa-user-plus mr-2"></i> Solicitar colaborar</button>
+        <button type="button" data-design-id="btn-guardar-dp11" class="mt-3 w-full py-3 rounded-full bg-white border border-[#E0D6F5] text-[#5B21B6] text-sm font-semibold"><i class="fa-regular fa-bookmark mr-2"></i> Guardar proyecto</button>
+      </div>
+
+      <div class="mt-6 bg-white rounded-2xl border border-[#E6DEF8] p-6">
+        <p class="text-[11px] font-bold tracking-[0.12em] text-[#8B7AAC]">FICHA ACADÉMICA</p>
+        <div class="mt-4 space-y-3 text-[13px]">
+          <div class="flex justify-between"><span class="text-[#8B7AAC]">Materia</span><span class="font-semibold text-[#2A0E5C]">Taller 5</span></div>
+          <div class="flex justify-between"><span class="text-[#8B7AAC]">Área</span><span class="font-semibold text-[#2A0E5C]">Aeronáutica</span></div>
+          <div class="flex justify-between"><span class="text-[#8B7AAC]">Año</span><span class="font-semibold text-[#2A0E5C]">2025</span></div>
+          <div class="flex justify-between"><span class="text-[#8B7AAC]">Estado</span><span class="font-semibold text-[#2A9D5C]">Finalizado</span></div>
+          <div class="flex justify-between"><span class="text-[#8B7AAC]">Visitas</span><span class="font-semibold text-[#2A0E5C]">1.284</span></div>
+        </div>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<footer data-design-id="footer-main-dp12" class="px-12 py-6 bg-[#EFEAFB] border-t border-[#E0D6F5] flex items-center justify-between text-[11px] text-[#7C6B9A]">
+  <span class="font-semibold text-[#5B21B6]">Universidad Nacional de Colombia — Sede Medellín</span>
+  <span>Open Engineering Physics · Repositorio de Proyectos de Ingeniería Física</span>
+  <span class="italic">Conocimiento estudiantil que trasciende</span>
+</footer>
+</body>
+</html>

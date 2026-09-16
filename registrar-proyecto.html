@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="w-[1440px] bg-[#F5F2FC] text-[#2E1A47]" style="font-family:'Inter',sans-serif">
+
+<header data-design-id="header-main-rp01" class="bg-white px-12 py-5 flex items-center justify-between border-b border-[#E6DEF8]">
+  <div class="flex items-end gap-3">
+    <div class="w-12 h-12 rounded-full bg-[#5B21B6] text-white flex items-center justify-center text-xl border-4 border-[#EDE7FA]"><i class="fa-solid fa-atom"></i></div>
+    <div>
+      <p class="text-[11px] font-bold tracking-[0.06em] leading-tight text-[#3B1178]">REPOSITORIO DE PROYECTOS<br>DE INGENIERÍA FÍSICA</p>
+      <div class="mt-1.5 flex items-center"><span class="h-[2px] w-[210px] bg-[#7C4DD8] rounded-full"></span><span class="w-2 h-2 rounded-full border-2 border-[#7C4DD8]"></span></div>
+    </div>
+  </div>
+  <nav data-design-id="nav-top-rp02" class="flex items-center gap-2 text-sm">
+    <a href="#" class="px-5 py-2 rounded-full text-[#5A4A7A]">Inicio</a>
+    <a href="#" class="px-5 py-2 rounded-full bg-[#EDE7FA] text-[#5B21B6] font-semibold">Proyectos</a>
+    <a href="#" class="px-5 py-2 rounded-full text-[#5A4A7A]">Áreas</a>
+    <a href="#" class="px-5 py-2 rounded-full text-[#5A4A7A]">Estudiantes</a>
+    <a href="#" class="px-5 py-2 rounded-full text-[#5A4A7A]">Colaboraciones</a>
+    <a href="#" class="ml-4 w-10 h-10 rounded-full bg-[#EDE7FA] text-[#5B21B6] flex items-center justify-center"><i class="fa-regular fa-user"></i></a>
+  </nav>
+</header>
+
+<main data-design-id="main-content-rp03" class="px-12 py-10">
+  <section data-design-id="titulo-rp04" class="text-center">
+    <p class="text-[11px] font-semibold tracking-[0.22em] text-[#8B7AAC]">COMPARTE TU TRABAJO</p>
+    <h1 class="mt-2 text-[34px] font-extrabold tracking-[-0.02em] text-[#2A0E5C]">Publicar un proyecto</h1>
+    <p class="mt-2 text-sm text-[#6B5C8A]">Documenta tu trabajo para que otros estudiantes puedan aprender de él y construir sobre tus resultados.</p>
+  </section>
+
+  <section data-design-id="pasos-rp05" class="mt-8 flex items-center justify-center gap-4">
+    <div class="flex items-center gap-3"><span class="w-8 h-8 rounded-full bg-[#5B21B6] text-white text-xs font-bold flex items-center justify-center">1</span><span class="text-[13px] font-semibold text-[#2A0E5C]">Información</span></div>
+    <span class="w-16 h-px bg-[#D8CCF0]"></span>
+    <div class="flex items-center gap-3"><span class="w-8 h-8 rounded-full bg-white border border-[#D8CCF0] text-[#8B7AAC] text-xs font-bold flex items-center justify-center">2</span><span class="text-[13px] text-[#8B7AAC]">Archivos</span></div>
+    <span class="w-16 h-px bg-[#D8CCF0]"></span>
+    <div class="flex items-center gap-3"><span class="w-8 h-8 rounded-full bg-white border border-[#D8CCF0] text-[#8B7AAC] text-xs font-bold flex items-center justify-center">3</span><span class="text-[13px] text-[#8B7AAC]">Revisión</span></div>
+  </section>
+
+  <form data-design-id="form-proyecto-rp06" action="#" class="mt-9 mx-auto w-[900px]">
+    <div class="bg-white rounded-2xl border border-[#E6DEF8] p-8">
+      <h2 class="text-[17px] font-bold text-[#2A0E5C]">Información general</h2>
+
+      <label class="block mt-6 text-[12px] font-semibold text-[#4A3B6B]">Título del proyecto</label>
+      <input type="text" placeholder="Ej. Sistema de navegación para UAV" class="mt-2 w-full px-5 py-3.5 rounded-xl bg-[#F9F7FE] border border-[#E6DEF8] text-sm placeholder-[#A396BD] outline-none focus:border-[#7C4DD8]">
+
+      <label class="block mt-5 text-[12px] font-semibold text-[#4A3B6B]">Resumen</label>
+      <textarea rows="4" placeholder="Describe el objetivo, la metodología y los principales resultados de tu proyecto..." class="mt-2 w-full px-5 py-3.5 rounded-xl bg-[#F9F7FE] border border-[#E6DEF8] text-sm placeholder-[#A396BD] outline-none focus:border-[#7C4DD8] resize-none"></textarea>
+
+      <div class="mt-5 grid grid-cols-3 gap-5">
+        <div>
+          <label class="block text-[12px] font-semibold text-[#4A3B6B]">Materia</label>
+          <select class="mt-2 w-full px-5 py-3.5 rounded-xl bg-[#F9F7FE] border border-[#E6DEF8] text-sm outline-none focus:border-[#7C4DD8]"><option>Taller 2</option><option>Taller 4</option><option selected>Taller 5</option></select>
+        </div>
+        <div>
+          <label class="block text-[12px] font-semibold text-[#4A3B6B]">Área de conocimiento</label>
+          <select class="mt-2 w-full px-5 py-3.5 rounded-xl bg-[#F9F7FE] border border-[#E6DEF8] text-sm outline-none focus:border-[#7C4DD8]"><option>Óptica y fotónica</option><option>Biomédica</option><option selected>Aeronáutica</option><option>Sensores</option><option>Programación</option><option>Instrumentación</option></select>
+        </div>
+        <div>
+          <label class="block text-[12px] font-semibold text-[#4A3B6B]">Año</label>
+          <select class="mt-2 w-full px-5 py-3.5 rounded-xl bg-[#F9F7FE] border border-[#E6DEF8] text-sm outline-none focus:border-[#7C4DD8]"><option selected>2026</option><option>2025</option><option>2024</option></select>
+        </div>
+      </div>
+
+      <label class="block mt-5 text-[12px] font-semibold text-[#4A3B6B]">Palabras clave</label>
+      <div class="mt-2 w-full px-4 py-3 rounded-xl bg-[#F9F7FE] border border-[#E6DEF8] flex items-center gap-2 flex-wrap">
+        <span class="px-3 py-1.5 rounded-full bg-[#EDE7FA] text-[#5B21B6] text-xs font-medium">GNSS <i class="fa-solid fa-xmark ml-1"></i></span>
+        <span class="px-3 py-1.5 rounded-full bg-[#EDE7FA] text-[#5B21B6] text-xs font-medium">Python <i class="fa-solid fa-xmark ml-1"></i></span>
+        <input type="text" placeholder="Agregar palabra clave..." class="flex-1 bg-transparent text-sm placeholder-[#A396BD] outline-none py-1">
+      </div>
+    </div>
+
+    <div class="mt-6 bg-white rounded-2xl border border-[#E6DEF8] p-8">
+      <h2 class="text-[17px] font-bold text-[#2A0E5C]">Archivos del proyecto</h2>
+      <div class="mt-5 rounded-2xl border-2 border-dashed border-[#D8CCF0] bg-[#F9F7FE] py-12 text-center">
+        <div class="w-14 h-14 mx-auto rounded-full bg-[#EDE7FA] text-[#5B21B6] flex items-center justify-center text-xl"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+        <p class="mt-4 text-sm font-semibold text-[#2A0E5C]">Arrastra tus archivos aquí</p>
+        <p class="mt-1 text-xs text-[#8B7AAC]">PDF, imágenes, código o datos · máximo 50 MB por archivo</p>
+        <button type="button" data-design-id="btn-seleccionar-rp07" class="mt-5 px-6 py-2.5 rounded-full bg-white border border-[#D8CCF0] text-[#5B21B6] text-xs font-semibold">Seleccionar archivos</button>
+      </div>
+      <div class="mt-4 flex items-center gap-4 p-4 rounded-xl bg-[#F9F7FE] border border-[#EDE7FA]">
+        <i class="fa-regular fa-file-pdf text-[#5B21B6] text-lg"></i>
+        <div class="flex-1"><p class="text-[13px] font-semibold text-[#2A0E5C]">Informe_final_UAV.pdf</p><p class="text-[11px] text-[#8B7AAC]">4.2 MB · cargado</p></div>
+        <i class="fa-solid fa-circle-check text-[#2A9D5C]"></i>
+      </div>
+    </div>
+
+    <div class="mt-6 bg-white rounded-2xl border border-[#E6DEF8] p-8">
+      <h2 class="text-[17px] font-bold text-[#2A0E5C]">Colaboradores y visibilidad</h2>
+      <label class="block mt-5 text-[12px] font-semibold text-[#4A3B6B]">Invitar colaboradores</label>
+      <input type="text" placeholder="Buscar por nombre o correo institucional..." class="mt-2 w-full px-5 py-3.5 rounded-xl bg-[#F9F7FE] border border-[#E6DEF8] text-sm placeholder-[#A396BD] outline-none focus:border-[#7C4DD8]">
+      <div class="mt-5 space-y-3 text-[13px] text-[#4A3B6B]">
+        <label class="flex items-start gap-3"><input type="radio" name="vis" checked class="accent-[#5B21B6] mt-1"> <span><span class="font-semibold text-[#2A0E5C]">Público</span> — visible para toda la comunidad y buscadores.</span></label>
+        <label class="flex items-start gap-3"><input type="radio" name="vis" class="accent-[#5B21B6] mt-1"> <span><span class="font-semibold text-[#2A0E5C]">Solo UNAL</span> — visible únicamente con correo institucional.</span></label>
+        <label class="flex items-start gap-3"><input type="radio" name="vis" class="accent-[#5B21B6] mt-1"> <span><span class="font-semibold text-[#2A0E5C]">Privado</span> — solo tú y los colaboradores invitados.</span></label>
+      </div>
+    </div>
+
+    <div class="mt-7 flex items-center justify-between">
+      <button type="button" data-design-id="btn-borrador-rp08" class="px-7 py-3.5 rounded-full bg-white border border-[#E0D6F5] text-[#5B21B6] text-sm font-semibold">Guardar borrador</button>
+      <button type="button" data-design-id="btn-publicar-rp09" class="px-9 py-3.5 rounded-full bg-[#5B21B6] text-white text-sm font-semibold shadow-md">Publicar proyecto <i class="fa-solid fa-arrow-right text-xs ml-2"></i></button>
+    </div>
+  </form>
+</main>
+
+<footer data-design-id="footer-main-rp10" class="mt-12 px-12 py-6 bg-[#EFEAFB] border-t border-[#E0D6F5] flex items-center justify-between text-[11px] text-[#7C6B9A]">
+  <span class="font-semibold text-[#5B21B6]">Universidad Nacional de Colombia — Sede Medellín</span>
+  <span>Open Engineering Physics · Repositorio de Proyectos de Ingeniería Física</span>
+  <span class="italic">Conocimiento estudiantil que trasciende</span>
+</footer>
+</body>
+</html>

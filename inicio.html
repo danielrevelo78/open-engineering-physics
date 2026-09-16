@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="w-[1440px] bg-[#F5F2FC] text-[#2E1A47]" style="font-family:'Inter',sans-serif">
+
+<header data-design-id="header-main-a1b2c3" class="bg-white px-12 py-5 flex items-center justify-between border-b border-[#E6DEF8]">
+  <div class="flex items-end gap-3">
+    <div class="w-12 h-12 rounded-full bg-[#5B21B6] text-white flex items-center justify-center text-xl border-4 border-[#EDE7FA]"><i class="fa-solid fa-atom"></i></div>
+    <div>
+      <p class="text-[11px] font-bold tracking-[0.06em] leading-tight text-[#3B1178]">REPOSITORIO DE PROYECTOS<br>DE INGENIERÍA FÍSICA</p>
+      <div class="mt-1.5 flex items-center"><span class="h-[2px] w-[210px] bg-[#7C4DD8] rounded-full"></span><span class="w-2 h-2 rounded-full border-2 border-[#7C4DD8]"></span></div>
+    </div>
+  </div>
+  <nav data-design-id="nav-top-d4e5f6" class="flex items-center gap-2 text-sm">
+    <a href="#" class="px-5 py-2 rounded-full bg-[#EDE7FA] text-[#5B21B6] font-semibold">Inicio</a>
+    <a href="#" class="px-5 py-2 rounded-full text-[#5A4A7A] hover:bg-[#F5F2FC]">Proyectos</a>
+    <a href="#" class="px-5 py-2 rounded-full text-[#5A4A7A] hover:bg-[#F5F2FC]">Áreas</a>
+    <a href="#" class="px-5 py-2 rounded-full text-[#5A4A7A] hover:bg-[#F5F2FC]">Estudiantes</a>
+    <a href="#" class="px-5 py-2 rounded-full text-[#5A4A7A] hover:bg-[#F5F2FC]">Colaboraciones</a>
+    <a href="#" class="ml-4 w-10 h-10 rounded-full bg-[#EDE7FA] text-[#5B21B6] flex items-center justify-center"><i class="fa-regular fa-user"></i></a>
+  </nav>
+</header>
+
+<main data-design-id="main-content-g7h8i9">
+
+  <section data-design-id="hero-section-j1k2l3" class="relative overflow-hidden bg-[#EFEAFB] px-12 pt-12 pb-24">
+    <img src="assets/campus.jpg" alt="Campus UNAL Medellín" class="absolute right-0 top-0 h-full w-[640px] object-cover [filter:grayscale(1)_sepia(0.4)_hue-rotate(218deg)_saturate(2.6)_contrast(1.05)]">
+    <div class="absolute right-0 top-0 h-full w-[640px] bg-gradient-to-l from-[#4A2A8C]/55 via-[#7C4DD8]/45 to-[#EFEAFB]"></div>
+    <p class="absolute right-[300px] top-16 text-[26px] leading-tight text-[#6B3FC4] text-center -rotate-[4deg]" style="font-family:'Caveat',cursive">Ciencia<br>para un mejor<br>mañana</p>
+    <div class="absolute right-16 top-14 text-right">
+      <p class="text-[44px] leading-[0.9] font-extrabold text-white/90">UN<br>AL</p>
+      <p class="mt-2 text-[9px] font-semibold tracking-[0.18em] text-white/85 leading-relaxed">UNIVERSIDAD<br>NACIONAL<br>DE COLOMBIA</p>
+    </div>
+    <div class="relative max-w-[600px]">
+      <p class="text-[11px] font-semibold tracking-[0.22em] text-[#8B7AAC]">IDEAS · CONOCIMIENTO · IMPACTO</p>
+      <h1 class="mt-4 text-[46px] leading-[1.08] font-extrabold tracking-[-0.02em] text-[#2A0E5C]">Explora proyectos de<br>Ingeniería Física</h1>
+      <p class="mt-5 text-[15px] leading-relaxed text-[#6B5C8A] max-w-[440px]">Repositorio académico para descubrir, compartir y documentar los trabajos estudiantiles de la Universidad Nacional.</p>
+      <div class="mt-8 flex items-center gap-4">
+        <button type="button" data-design-id="btn-explorar-m4n5o6" class="px-7 py-3.5 rounded-full bg-[#5B21B6] text-white text-sm font-semibold flex items-center gap-3 shadow-md hover:bg-[#4A1A96]"><i class="fa-solid fa-magnifying-glass"></i> Explorar proyectos <i class="fa-solid fa-arrow-right text-xs"></i></button>
+        <button type="button" data-design-id="btn-publicar-p7q8r9" class="px-7 py-3.5 rounded-full bg-white text-[#3B1178] text-sm font-semibold border border-[#E0D6F5] flex items-center gap-3 hover:bg-[#F7F4FE]"><i class="fa-solid fa-arrow-up-from-bracket"></i> Publicar proyecto</button>
+      </div>
+    </div>
+  </section>
+
+  <section data-design-id="search-section-s1t2u3" class="px-12 -mt-16 relative">
+    <form data-design-id="search-form-v4w5x6" action="#" class="bg-white rounded-2xl border border-[#E6DEF8] shadow-md p-4 flex items-center gap-4">
+      <i class="fa-solid fa-magnifying-glass text-[#7C4DD8] ml-3"></i>
+      <input type="text" placeholder="Buscar por tema, estudiante o palabra clave..." class="flex-1 text-sm text-[#2E1A47] placeholder-[#A396BD] outline-none">
+      <button type="button" data-design-id="btn-buscar-y7z8a9" class="px-12 py-3 rounded-full bg-[#5B21B6] text-white text-sm font-semibold hover:bg-[#4A1A96]">Buscar</button>
+    </form>
+    <div class="mt-5 flex items-center justify-center gap-3">
+      <a href="#" class="px-5 py-2.5 rounded-full bg-white border border-[#E6DEF8] text-[13px] text-[#4A3B6B] flex items-center gap-2 hover:border-[#7C4DD8]"><i class="fa-regular fa-sun text-[#7C4DD8]"></i> Óptica</a>
+      <a href="#" class="px-5 py-2.5 rounded-full bg-white border border-[#E6DEF8] text-[13px] text-[#4A3B6B] flex items-center gap-2 hover:border-[#7C4DD8]"><i class="fa-regular fa-heart text-[#7C4DD8]"></i> Biomédica</a>
+      <a href="#" class="px-5 py-2.5 rounded-full bg-white border border-[#E6DEF8] text-[13px] text-[#4A3B6B] flex items-center gap-2 hover:border-[#7C4DD8]"><i class="fa-solid fa-plane-up text-[#7C4DD8]"></i> Aeronáutica</a>
+      <a href="#" class="px-5 py-2.5 rounded-full bg-white border border-[#E6DEF8] text-[13px] text-[#4A3B6B] flex items-center gap-2 hover:border-[#7C4DD8]"><i class="fa-solid fa-tower-broadcast text-[#7C4DD8]"></i> Sensores</a>
+      <a href="#" class="px-5 py-2.5 rounded-full bg-white border border-[#E6DEF8] text-[13px] text-[#4A3B6B] flex items-center gap-2 hover:border-[#7C4DD8]"><i class="fa-solid fa-code text-[#7C4DD8]"></i> Programación</a>
+      <a href="#" class="px-5 py-2.5 rounded-full bg-white border border-[#E6DEF8] text-[13px] text-[#4A3B6B] flex items-center gap-2 hover:border-[#7C4DD8]"><i class="fa-solid fa-gauge text-[#7C4DD8]"></i> Instrumentación</a>
+    </div>
+  </section>
+
+  <section data-design-id="stats-section-b1c2d3" class="px-12 mt-10 grid grid-cols-3 gap-6">
+    <article data-design-id="stat-1-e4f5g6" class="bg-white rounded-2xl border border-[#E6DEF8] p-6 flex items-center gap-5">
+      <div class="w-12 h-12 rounded-full bg-[#EDE7FA] text-[#5B21B6] flex items-center justify-center"><i class="fa-solid fa-book"></i></div>
+      <div><p class="text-2xl font-extrabold text-[#2A0E5C]">120+</p><p class="text-xs text-[#8B7AAC]">proyectos publicados</p></div>
+    </article>
+    <article data-design-id="stat-2-h7i8j9" class="bg-white rounded-2xl border border-[#E6DEF8] p-6 flex items-center gap-5">
+      <div class="w-12 h-12 rounded-full bg-[#EDE7FA] text-[#5B21B6] flex items-center justify-center"><i class="fa-solid fa-layer-group"></i></div>
+      <div><p class="text-2xl font-extrabold text-[#2A0E5C]">8</p><p class="text-xs text-[#8B7AAC]">áreas de conocimiento</p></div>
+    </article>
+    <article data-design-id="stat-3-k1l2m3" class="bg-white rounded-2xl border border-[#E6DEF8] p-6 flex items-center gap-5">
+      <div class="w-12 h-12 rounded-full bg-[#EDE7FA] text-[#5B21B6] flex items-center justify-center"><i class="fa-solid fa-user-group"></i></div>
+      <div><p class="text-2xl font-extrabold text-[#2A0E5C]">35</p><p class="text-xs text-[#8B7AAC]">colaboradores activos</p></div>
+    </article>
+  </section>
+
+  <section data-design-id="destacados-n4o5p6" class="px-12 mt-12">
+    <div class="flex items-center justify-between">
+      <div class="flex items-center gap-4">
+        <div class="w-10 h-10 rounded-full bg-[#EDE7FA] text-[#5B21B6] flex items-center justify-center"><i class="fa-solid fa-star"></i></div>
+        <div><h2 class="text-[19px] font-bold text-[#2A0E5C]">Proyectos destacados</h2><p class="text-xs text-[#8B7AAC]">Trabajos innovadores de nuestra comunidad estudiantil.</p></div>
+      </div>
+      <a href="#" class="text-xs font-semibold text-[#5B21B6]">Ver todos los proyectos <i class="fa-solid fa-arrow-right text-[10px]"></i></a>
+    </div>
+    <div class="mt-5 grid grid-cols-3 gap-6">
+      <article data-design-id="proj-1-q7r8s9" class="bg-white rounded-2xl border border-[#E6DEF8] p-4 flex gap-4">
+        <img src="assets/dron.jpg" class="w-[110px] h-[92px] object-cover rounded-xl" alt="Dron">
+        <div class="flex-1">
+          <h3 class="text-sm font-bold text-[#2A0E5C] leading-snug">Sistema de navegación para UAV</h3>
+          <p class="mt-1.5 text-xs text-[#8B7AAC] leading-relaxed">Integración de sensores y control autónomo.</p>
+          <p class="mt-3 text-[11px] text-[#5B21B6] font-medium"><i class="fa-solid fa-plane-up"></i> Aeronáutica · Taller 5 · 2025</p>
+        </div>
+      </article>
+      <article data-design-id="proj-2-t1u2v3" class="bg-white rounded-2xl border border-[#E6DEF8] p-4 flex gap-4">
+        <img src="assets/tunel.jpg" class="w-[110px] h-[92px] object-cover rounded-xl" alt="Túnel de viento">
+        <div class="flex-1">
+          <h3 class="text-sm font-bold text-[#2A0E5C] leading-snug">Túnel de viento didáctico</h3>
+          <p class="mt-1.5 text-xs text-[#8B7AAC] leading-relaxed">Diseño experimental para prácticas de aerodinámica.</p>
+          <p class="mt-3 text-[11px] text-[#5B21B6] font-medium"><i class="fa-solid fa-wind"></i> Mecánica de fluidos · Taller 4 · 2024</p>
+        </div>
+      </article>
+      <article data-design-id="proj-3-w4x5y6" class="bg-white rounded-2xl border border-[#E6DEF8] p-4 flex gap-4">
+        <img src="assets/protesis.jpg" class="w-[110px] h-[92px] object-cover rounded-xl" alt="Prótesis">
+        <div class="flex-1">
+          <h3 class="text-sm font-bold text-[#2A0E5C] leading-snug">Prótesis biomédica inteligente</h3>
+          <p class="mt-1.5 text-xs text-[#8B7AAC] leading-relaxed">Desarrollo de interfaz y control por biosensores.</p>
+          <p class="mt-3 text-[11px] text-[#5B21B6] font-medium"><i class="fa-regular fa-heart"></i> Bioingeniería · Taller 5 · 2025</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section data-design-id="colaboraciones-z7a8b9" class="px-12 mt-12 pb-14">
+    <div class="flex items-center justify-between">
+      <div class="flex items-center gap-4">
+        <div class="w-10 h-10 rounded-full bg-[#EDE7FA] text-[#5B21B6] flex items-center justify-center"><i class="fa-solid fa-users"></i></div>
+        <div><h2 class="text-[19px] font-bold text-[#2A0E5C]">Colaboraciones recientes</h2><p class="text-xs text-[#8B7AAC]">Grupos, semilleros y laboratorios que impulsan la investigación.</p></div>
+      </div>
+      <a href="#" class="text-xs font-semibold text-[#5B21B6]">Ver todas las colaboraciones <i class="fa-solid fa-arrow-right text-[10px]"></i></a>
+    </div>
+    <div class="mt-5 grid grid-cols-3 gap-6">
+      <article data-design-id="colab-1-c1d2e3" class="bg-white rounded-2xl border border-[#E6DEF8] p-4 flex items-center gap-4">
+        <div class="w-11 h-11 rounded-full bg-[#EDE7FA] text-[#5B21B6] flex items-center justify-center"><i class="fa-regular fa-circle-dot"></i></div>
+        <div class="flex-1"><p class="text-[13px] font-bold text-[#2A0E5C]">Grupo de Óptica Aplicada</p><p class="text-[11px] text-[#8B7AAC]">Investigación en fotónica y sistemas ópticos</p></div>
+        <i class="fa-solid fa-chevron-right text-[#B9A9D8] text-xs"></i>
+      </article>
+      <article data-design-id="colab-2-f4g5h6" class="bg-white rounded-2xl border border-[#E6DEF8] p-4 flex items-center gap-4">
+        <div class="w-11 h-11 rounded-full bg-[#EDE7FA] text-[#5B21B6] flex items-center justify-center"><i class="fa-solid fa-dna"></i></div>
+        <div class="flex-1"><p class="text-[13px] font-bold text-[#2A0E5C]">Semillero de Bioinstrumentación</p><p class="text-[11px] text-[#8B7AAC]">Tecnología para la salud</p></div>
+        <i class="fa-solid fa-chevron-right text-[#B9A9D8] text-xs"></i>
+      </article>
+      <article data-design-id="colab-3-i7j8k9" class="bg-white rounded-2xl border border-[#E6DEF8] p-4 flex items-center gap-4">
+        <div class="w-11 h-11 rounded-full bg-[#EDE7FA] text-[#5B21B6] flex items-center justify-center"><i class="fa-solid fa-robot"></i></div>
+        <div class="flex-1"><p class="text-[13px] font-bold text-[#2A0E5C]">Laboratorio de Robótica</p><p class="text-[11px] text-[#8B7AAC]">Control, automatización y sistemas inteligentes</p></div>
+        <i class="fa-solid fa-chevron-right text-[#B9A9D8] text-xs"></i>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer data-design-id="footer-main-l1m2n3" class="px-12 py-6 bg-[#EFEAFB] border-t border-[#E0D6F5] flex items-center justify-between text-[11px] text-[#7C6B9A]">
+  <span class="font-semibold text-[#5B21B6]">Universidad Nacional de Colombia — Sede Medellín</span>
+  <span>Open Engineering Physics · Repositorio de Proyectos de Ingeniería Física</span>
+  <span class="italic">Conocimiento estudiantil que trasciende</span>
+</footer>
+</body>
+</html>
